@@ -1,0 +1,39 @@
+.menu-header {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 23px 20px 0 20px;
+  box-sizing: border-box;
+}
+
+.menu-header__avatar {
+  width: 33%;
+  display: block;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.menu-header__name {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.19;
+  margin: 0;
+}
+
+.menu-header__about {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.17;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.menu-header__plan {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.17;
+  margin: 0;
+}

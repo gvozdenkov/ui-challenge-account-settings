@@ -1,0 +1,7 @@
+.menu__footer {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 28px;
+}

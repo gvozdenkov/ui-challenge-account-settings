@@ -1,0 +1,39 @@
+.icon {
+  fill: white;
+  width: 22px;
+  height: 100%;
+}
+
+.icon_type_profile {
+  width: 21px;
+}
+
+.icon_type_choice {
+  width: 20px;
+}
+
+.icon_type_credit-card {
+  width: 24px;
+}
+
+.icon_type_puzzle {
+}
+
+.icon_type_receipt {
+}
+
+.icon_type_shopping-cart {
+  width: 23px;
+}
+
+.icon_type_email {
+  width: 24px;
+}
+
+.icon_type_locked {
+  width: 20px;
+}
+
+.icon_type_star {
+  width: 25px;
+}
