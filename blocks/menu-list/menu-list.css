@@ -4,5 +4,7 @@
   padding: 0;
   display: flex;
   flex-flow: column nowrap;
-  width: 100%;
+
+  /* + 2x menu side padding*/
+  width: calc(100% + 40px);
 }
