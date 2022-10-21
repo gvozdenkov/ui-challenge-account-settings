@@ -1,0 +1,13 @@
+.form__description {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.form__description::before {
+  content: "";
+  height: 25px;
+  width: 1px;
+  background-color: rgba(67, 83, 255, 0.3);
+  margin-left: 10px;
+}

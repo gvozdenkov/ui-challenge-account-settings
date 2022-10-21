@@ -1,0 +1,18 @@
+.form__input-tooltip {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  opacity: 0.3;
+}
+
+.form__input-tooltip_pos_bot-right {
+  right: 15px;
+  bottom: 11px;
+}
+
+.form__input-tooltip_pos_center-right {
+  bottom: 50%;
+  right: 15px;
+  translate: 0 50%;
+}

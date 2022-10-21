@@ -1,0 +1,19 @@
+.form__input {
+  width: 100%;
+  padding: 16px 15px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid rgba(67, 83, 255, 0.3);
+  background-color: transparent;
+  transition: all 0.2s ease-out;
+}
+
+.form__input_type_textarea {
+  border-radius: 5px;
+  padding-top: 45px;
+  min-height: 130px;
+}
+
+.form__input:focus {
+  border-color: rgba(67, 83, 255, 0.8);
+  outline: 0;
+}

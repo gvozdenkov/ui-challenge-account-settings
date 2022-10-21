@@ -1,0 +1,24 @@
+.form__label {
+  flex: 0 0 auto;
+  padding: 16px 15px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid rgba(67, 83, 255, 0.3);
+  border-right: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+  color: rgba(67, 83, 255, 0.6);
+  background-color: transparent;
+  transition: all 0.2s ease-out;
+}
+
+.form__label_for_textarea {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 0;
+}
+
+.form__input:focus + .form__label {
+  color: rgba(67, 83, 255, 1);
+}
